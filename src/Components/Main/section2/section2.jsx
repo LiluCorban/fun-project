@@ -1,6 +1,6 @@
 
 import "./section2.css"
-import img2 from "../../Assets/img/img2.png"
+import img2 from "../../../Assets/img/img2.png"
 
 const Section2 = () => {
     return (

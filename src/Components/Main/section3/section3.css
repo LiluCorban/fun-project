@@ -1,0 +1,19 @@
+.block-one {
+    width: 100%;
+}
+.block-one div.section-block{
+    padding: 1%;
+    margin: 1%;
+    background-color: #790808;
+    border-radius: 5px;
+
+}
+.block-one div.section-block h2{
+    color: white;
+    font-size: 100px;
+    padding-left: 2%;
+}
+.block-one div.section-block .cards{
+    display: flex;
+    width: 100%;
+}

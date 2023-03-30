@@ -1,0 +1,14 @@
+
+nav{
+    background-color: #FFF8EC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+

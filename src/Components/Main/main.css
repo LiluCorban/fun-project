@@ -1,0 +1,13 @@
+.centre{
+    height: 500px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.centre h1{
+    margin:0;
+    font-size: 100px;
+    text-align: center;
+}

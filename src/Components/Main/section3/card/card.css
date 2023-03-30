@@ -1,0 +1,32 @@
+.card-block{
+    display: flex;
+    flex-direction: column;
+    border:1px solid white;
+    width: 30%;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+.card-block img{
+    border-radius: 5px 5px 0 0;
+}
+
+.card-block .description-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+       padding: 10px;
+}
+.card-block .description-block .buttons-block{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card-block .description-block .buttons-block button{
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+
+}

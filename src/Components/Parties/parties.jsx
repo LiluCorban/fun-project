@@ -1,10 +1,12 @@
-import "./section1.css"
-import img1 from "../../../Assets/img/card1.png"
-const Section1= ()=>{
+import img1 from "../../Assets/img/img1.png";
+import "./parties.css"
+
+
+const Parties= ()=>{
     return(
         <section className="container">
             <div className="left-side">
-        <h1>A party so perfect you won’t believe</h1>
+                <h1>A party so perfect you won’t believe</h1>
                 <p>We provide hosts with tools to make elevating gatherings easier, including party concepts, styled and shoppable
                     decor, customized guidelines, with timelines and checklists curated by the pros.</p>
 
@@ -22,4 +24,4 @@ const Section1= ()=>{
     )
 
 }
-export default Section1;
+export default Parties;
