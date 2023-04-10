@@ -8,6 +8,17 @@
 }
 .centre h1{
     margin:0;
-    font-size: 100px;
     text-align: center;
+    font-family: "Impact", sans-serif;
+    background: url("https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGFydHl8ZW58MHx8MHx8&w=1000&q=80");
+    font-size: 8rem;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #5b728a54;
+    animation: move 20s linear infinite;
+    letter-spacing: .3rem;
+}
+@keyframes move {
+    from { background-position: 0 80%; }
+    to { background-position: 100% 50%; }
 }

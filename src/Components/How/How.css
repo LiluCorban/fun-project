@@ -26,4 +26,13 @@
 }
 .block .right h2{
     font-size: 40px;
+
+
+}
+.block .right hr{
+    background-color: #790808;
+    height: 2px;
+    border: 1px solid #790808;
+       width: 100%;
+
 }
