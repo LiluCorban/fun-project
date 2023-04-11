@@ -1,8 +1,13 @@
 import "./header.css";
 import img from "../../Assets/img/logo.png";
-import HeaderLink from "../Links/Links";
+import {NavLink} from "react-router-dom";
 
+const HeaderLink = (props) =>{
+    return(
+        <NavLink to={props.link.address}>{props.link.name}</NavLink>
 
+    )
+}
 const Header = (props) =>{
     let headerItems = props.links.links.map(link => <HeaderLink link={link}/>)
 

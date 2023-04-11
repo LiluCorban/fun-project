@@ -1,10 +1,10 @@
-import Card from "./Card/Card";
-import "./Pricing.css"
+import "./section3.css"
+import Card from "./card/card";
 
 
 
 
-const Pricing = (props) => {
+const Section3 = (props) => {
     let cardItems = props.products.map(product => <Card card={product}/>)
     return (
         <section className="block-one">
@@ -17,8 +17,11 @@ const Pricing = (props) => {
 
             </div>
 
+            
+
+
         </section>
     )
 }
 
-export default Pricing
+export default Section3
