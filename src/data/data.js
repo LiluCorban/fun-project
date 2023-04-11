@@ -42,6 +42,12 @@ let state = {
                     description: "Our take on an evening rolling your own sushi, sipping tea and sake, and basking in a serene setting inspired by Japan.",
                     buttons: ["SIMPLE", "FALL", "FORMAL", "SPRING"]
                 },
+                {
+                    img: card1,
+                    head: "Fa La La La Festivities",
+                    description: "Our take on an evening rolling your own sushi, sipping tea and sake, and basking in a serene setting inspired by Japan.",
+                    buttons: ["SIMPLE", "FALL", "FORMAL", "SPRING"]
+                },
 
             ]
     }

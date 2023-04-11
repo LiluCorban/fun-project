@@ -17,8 +17,13 @@ function App(props) {
       <Routes>
       <Route path="/main" element={<Parties/>}/>
           <Route path="/how-it-works" element={<How/>}/>
-         <Route path="/pricing" element={<Pricing products={props.state.main.section3}/>}/></Routes>
+         <Route path="/pricing" element={<Pricing products={props.state.main.section3}/>}/>
+
+
+      </Routes>
           <Footer links={props.state.header}/>
+
+
 
 </div>
 
